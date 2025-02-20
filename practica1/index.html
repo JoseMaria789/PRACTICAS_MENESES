@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 1 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Laboratorio de Redes Digitales</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Titulo de la practica de laboratorio</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/Foto_mia.jpeg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Jose Maria Meneses Avendaño</div>
+                                <div class="text-muted">Ingenieria Mecatronica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: 01 29 2025</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >ESP32</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/ESP32_PRACTICA1.jpg" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">El módulo ESP32 es un microcontrolador de bajo costo y alto rendimiento desarrollado por Espressif Systems. Cuenta con Wi-Fi y Bluetooth integrados, lo que lo hace ideal para proyectos de Internet de las Cosas (IoT). Además, tiene múltiples GPIOs, ADCs, DACs, PWM y otros periféricos que permiten su uso en diversas aplicaciones, desde automatización hasta dispositivos portátiles inteligentes.</p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>  
+
+                        El ESP32 es un microcontrolador potente y versátil diseñado para aplicaciones de Internet de las Cosas (IoT), automatización y sistemas embebidos. Desarrollado por Espressif Systems, se destaca por integrar Wi-Fi y Bluetooth en un solo chip, lo que permite la conectividad inalámbrica sin necesidad de componentes adicionales.  
+                        
+                        Gracias a su bajo consumo de energía, múltiples **pines de entrada/salida (GPIO) y una gran variedad de interfaces como ADC, DAC, SPI, I2C y PWM, el ESP32 es ideal para proyectos que van desde sensores inteligentes hasta dispositivos de automatización del hogar.  
+                        
+                        Este módulo es compatible con entornos de programación como **Arduino IDE, MicroPython y ESP-IDF**, lo que facilita su uso tanto para principiantes como para desarrolladores avanzados. A lo largo de esta guía, exploraremos cómo configurar y programar el ESP32 para aprovechar al máximo sus capacidades.</p>
+                        
+                        
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">Node MCU ESP8266 o ESP32 </p>
+                        <p class="fs-6 mb-4">LED</p>
+                        <p class="fs-6 mb-4">Resistencia de 220 Ohms</p>
+                        <p class="fs-6 mb-4">4 Botones</p>
+                        <p class="fs-6 mb-4">4 resistencias de 1Khom</p>
+                        <p class="fs-6 mb-4">Protoboard</p>
+                        <p class="fs-6 mb-4">Jumpers</p>
+                        
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">Primero hay que hacer la simulacion antes de armar cad circuito en fisico para asi poder armarlos optimamente.</p>
+                        <p class="fs-6 mb-4">Una vez que se hicieron las simulaciones antes de cada circuito, procederemos a armar el circuito junto con el codigo en arduino para poder controlar un led atraves de nuestro modulo ESP32.</p>
+                        <p class="fs-6 mb-4">Junto con la simulacion se creo un codigo para cada uno de los circuitos</p>
+
+                        
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación Circuito 1</h1>
+                            <p class="fs-6 mb-4">En esta imagen que se tomo del simulador Wokwi podemos observar como se conecta el ESP32 con un led y la programacion para prenderlo.</p>
+                            <p class="fs-6 mb-4">.</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/CIRCUIT1_LED_PRENDER.jpeg" alt="..." /></figure>
+                            <p id="simulacion">
+
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación Circuito 2</h1>
+                            <p class="fs-6 mb-4">En esta imagen que se tomo del simulador Wokwi podemos observar como se conecta el ESP32 con un led y la programacion para apagarlo.</p>
+                            <p class="fs-6 mb-4">.</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/CIRCUIT2_LED_APAGADO.jpeg" alt="..." /></figure>
+
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación Circuito 3</h1>
+                            <p class="fs-6 mb-4">En este video que se tomo del simulador Wokwi podemos observar como se conecta el ESP32 con un led y la programacion para hacer que el led prenda y apague en un periodo de tiempo determinado.</p>
+                            <p class="fs-6 mb-4">.</p>
+                            <figure class="mb-4" align="center"><video width="80%"  controls>
+                                <source src="video/CIRCUIT3_SIMU_LED_PARPADEO.mp4" type="video/mp4">
+                            </video></p></figure>
+
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación Circuito 4</h1>
+                            <p class="fs-6 mb-4">En este video que se tomo del simulador Wokwi podemos observar como se conecta el ESP32 con un led, un boton y la programacion para prender el led al momento de presionar el boton.</p>
+                            <p class="fs-6 mb-4">.</p>
+                            <figure class="mb-4" align="center"><video width="80%"  controls>
+                                <source src="video/CIRCUIT4_SIMU_LED_BOTON.mp4" type="video/mp4">
+                            </video></p></figure>
+
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación Circuito 5</h1>
+                            <p class="fs-6 mb-4">En este video que se tomo del simulador Wokwi podemos observar como se conecta el ESP32 con un led, un boton y la programacion con distintas variables para prender el led al momento de presionar el boton.</p>
+                            <p class="fs-6 mb-4">.</p>
+                            <figure class="mb-4" align="center"><video width="80%"  controls>
+                                <source src="video/CIRCUIT5_SIMU_LED_VARIABLES.mp4" type="video/mp4">
+                            </video></p></figure>
+                
+                            
+                            <p id="construccion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+                            <p class="fs-6 mb-4">Para construir este circuito debemos conectar el LED al ESP32, para esto debemos elegir algun puerto de nuestro ESP32, posteriorente, conectaremos primero una resistencia de 220 ohms directo a la entrada elegida del ESP32 y el otro lado de la resistencia ira conectado a nuestro led, esto nos servira para no quemar nuestro LED, el otro lado del LED ira conectado a tierra.</p>
+                            <p class="fs-6 mb-4">Para construir este circuito debemos conectar el LED al ESP32, para esto debemos elegir algun puerto de nuestro ESP32, posteriorente, conectaremos primero una resistencia de 220 ohms directo a la entrada elegida del ESP32 y el otro lado de la resistencia ira conectado a nuestro led, esto nos servira para no quemar nuestro LED, el otro lado del LED ira conectado a tierra. Posteriormente conectaremos un boton con una resistencia de 1 kohms entre el boton y el ESP32, estos se conectaran al pin 32 del ESP32 y el otro lado del boton ira conectado a la correinte.</p>
+                            <p class="fs-6 mb-4">Estos dos procesos son los que se ocuparon para la construccion de los circuitos.</p>
+                            
+
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados Circuito 1 -</h2>
+                        <p class="fs-6 mb-4">El resultado de nuestro circuito en conjunto al codigo es el que el LED encendera.</p>
+                        <p class="fs-6 mb-4">.</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/CIRCUIT1_LED_PRENDER_VID.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados Circuito 2 -</h2>
+                        <p class="fs-6 mb-4">El resultado de nuestro circuito en conjunto al codigo es el que el LED se apagara.</p>
+                        <p class="fs-6 mb-4">.</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/CIRCUIT2_LED_APAGADO_VID.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados Circuito 3 -</h2>
+                        <p class="fs-6 mb-4">El resultado de nuestro circuito en conjunto al codigo es el que el LED va a encender y apagar en un tiempo determinado.</p>
+                        <p class="fs-6 mb-4">.</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/CIRCUIT3_FISICO_LED_PARPADEO.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados Circuito 4 -</h2>
+                        <p class="fs-6 mb-4">El resultado de nuestro circuito en conjunto al codigo es el que el LED va a encender al momento de presionar el boton.</p>
+                        <p class="fs-6 mb-4">.</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/CIRCUIT4_FISICO_LED_BOTON.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados Circuito 5 -</h2>
+                        <p class="fs-6 mb-4">El resultado de nuestro circuito en conjunto al codigo es el que el LED va a encender al momento de presionar el boton.</p>
+                        <p class="fs-6 mb-4">.</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/CIRCUIT5_FISIC_LED_VARIABLES.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">La conexión de un LED a un ESP32 es un experimento sencillo pero fundamental para comprender el funcionamiento de sus pines de entrada/salida (GPIO). A través de esta práctica, se pueden explorar conceptos clave como la configuración de pines, el uso de código en Arduino IDE o MicroPython, y la aplicación de señales PWM para controlar el brillo del LED.
+                            Este ejercicio también sienta las bases para proyectos más avanzados, como la automatización de dispositivos, la integración de sensores y el control de sistemas a través de Wi-Fi o Bluetooth. Con una comprensión clara de cómo encender y controlar un LED, es posible ampliar las aplicaciones del ESP32 hacia desarrollos más complejos dentro del mundo del Internet de las Cosas (IoT) y la electrónica embebida.</p>
+                        <p class="fs-6 mb-4">.</p>
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
